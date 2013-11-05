@@ -2,8 +2,8 @@
 * Draft Version 0.1 (05.11.2013)
 * Please, use the following infomation on how to use this template
 
+| Item | Finding |
 | ---- | ---- |
-|Item | Finding |
 |Identification number| |
 |State | |
 |Headline | |
