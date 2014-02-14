@@ -1,0 +1,1275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<REQ-IF xmlns="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd" xmlns:configuration="http://eclipse.org/rmf/pror/toolextensions/1.0" xmlns:headline="http://pror.org/presentation/headline" xmlns:linewrap="http://pror.org/presentation/linewrap">
+  <THE-HEADER>
+    <REQ-IF-HEADER IDENTIFIER="rmf-754beaa6-17fd-410e-8849-b6a8a068a304">
+      <COMMENT>Created by: PeymanFarhangi</COMMENT>
+      <CREATION-TIME>2014-02-13T16:04:17.945+01:00</CREATION-TIME>
+      <REQ-IF-TOOL-ID>ProR (http://pror.org)</REQ-IF-TOOL-ID>
+      <REQ-IF-VERSION>1.0.1</REQ-IF-VERSION>
+      <SOURCE-TOOL-ID>ProR (http://pror.org)</SOURCE-TOOL-ID>
+    </REQ-IF-HEADER>
+  </THE-HEADER>
+  <CORE-CONTENT>
+    <REQ-IF-CONTENT>
+      <DATATYPES>
+        <DATATYPE-DEFINITION-STRING IDENTIFIER="_HDpHoJTAEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:04:17.945+01:00" LONG-NAME="T_String32k" MAX-LENGTH="32000"/>
+        <DATATYPE-DEFINITION-STRING IDENTIFIER="_skd9UJTDEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:29:52.121+01:00" LONG-NAME="T_Headline"/>
+        <DATATYPE-DEFINITION-STRING IDENTIFIER="_3-czsJTLEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T17:28:25.656+01:00" LONG-NAME="T_Comment"/>
+      </DATATYPES>
+      <SPEC-TYPES>
+        <SPEC-OBJECT-TYPE IDENTIFIER="_HDpHoZTAEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:04:17.945+01:00" LONG-NAME="Requirement Type">
+          <SPEC-ATTRIBUTES>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_HDpHopTAEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:04:17.945+01:00" LONG-NAME="Description">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_HDpHoJTAEeOuRtV71D_jpA</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_SYwlwJTAEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:05:09.491+01:00" LONG-NAME="ID">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_HDpHoJTAEeOuRtV71D_jpA</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+          </SPEC-ATTRIBUTES>
+        </SPEC-OBJECT-TYPE>
+        <SPECIFICATION-TYPE IDENTIFIER="_HDpHo5TAEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:04:17.945+01:00" LONG-NAME="Specification Type">
+          <SPEC-ATTRIBUTES>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_HDpHpJTAEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:04:17.945+01:00" LONG-NAME="Description">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_HDpHoJTAEeOuRtV71D_jpA</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+          </SPEC-ATTRIBUTES>
+        </SPECIFICATION-TYPE>
+        <SPEC-OBJECT-TYPE IDENTIFIER="_dxQyQJTEEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:35:23.129+01:00" LONG-NAME="Headline Type">
+          <SPEC-ATTRIBUTES>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_sbd84JTEEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:35:59.744+01:00" LONG-NAME="Description">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_skd9UJTDEeOuRtV71D_jpA</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_Zo1b8JTSEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T18:15:02.626+01:00" LONG-NAME="ID">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_skd9UJTDEeOuRtV71D_jpA</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+          </SPEC-ATTRIBUTES>
+        </SPEC-OBJECT-TYPE>
+        <SPEC-OBJECT-TYPE IDENTIFIER="_IOjlIJTMEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T17:30:12.126+01:00" LONG-NAME="Comment Type">
+          <SPEC-ATTRIBUTES>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_NJcKwJTMEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T17:30:44.332+01:00" LONG-NAME="Description">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_3-czsJTLEeOuRtV71D_jpA</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_KVszoJTTEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T18:20:17.717+01:00" LONG-NAME="ID" IS-EDITABLE="true">
+              <DEFAULT-VALUE>
+                <ATTRIBUTE-VALUE-STRING THE-VALUE="Comment">
+                  <DEFINITION>
+                    <ATTRIBUTE-DEFINITION-STRING-REF>_KVszoJTTEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+                  </DEFINITION>
+                </ATTRIBUTE-VALUE-STRING>
+              </DEFAULT-VALUE>
+            </ATTRIBUTE-DEFINITION-STRING>
+          </SPEC-ATTRIBUTES>
+        </SPEC-OBJECT-TYPE>
+      </SPEC-TYPES>
+      <SPEC-OBJECTS>
+        <SPEC-OBJECT IDENTIFIER="_HDpHpZTAEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:31:31.618+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Language and formalism">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_sbd84JTEEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="7.6">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Zo1b8JTSEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_dxQyQJTEEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_jao88JTBEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:16:13.032+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="The description of the SFM shall be understandable by domain experts with a reasonable amount of specific training.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-065">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_4xmTcJTBEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:18:44.242+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-065.01">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="The means of description of the SFM shall provide simple graphicalrepresentation for component relations, data-flow and system behavior (which cover process sequence and state evolution).">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_NhH2gJTCEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:19:15.785+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-065.02">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="The means of description of the SFM shall provide visual simulation of the system behavior.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_jCwEkJTFEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:43:04.379+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-066">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="The means of discription used to formalize safety properties shall be formal and declarative.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_cUnjMJTGEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:49:32.347+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-066.01">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="The formalism shall be understandable by domain experts without specific training.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_izg5QJTGEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:50:13.991+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-066.02">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="The formalism shall be able to state:">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_p-DNUJTGEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:51:05.770+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-066.02.01">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="logical statements,">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_wY_QcJTGEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:51:47.345+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-066.02.02">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="time constraints.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_4HhCYJTGEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:52:34.894+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-067">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="All means of description used shall be standardized or at least documented in detailed.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="__xhgsJTGEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:54:43.188+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-068">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="The means of descriptions used for SSRS, SFM and FFM modeling shall be open for the use with different tool via:">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_MInZMJTHEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:54:54.972+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="direct exchange of the model data file;">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-068.01">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_S9_VkJTHEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:55:39.742+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="or fully automated translation of the model data file.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-068.02">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_d-J3YJTHEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:56:54.277+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-069">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="The means of description for the SFM shall be able to formalize:">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_1oZfIJTHEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:59:33.565+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-069.01">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="State machines,">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_4xQtgJTHEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T17:54:43.531+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-069.02">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Time-outs,">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_k5vXMJTMEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T17:36:06.289+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="jhgjhghjh">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_NJcKwJTMEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_IOjlIJTMEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_qa0ksJTNEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T17:55:50.919+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-069.03">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Truth tables,">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_vgwjwJTNEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T17:55:17.528+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-069.04">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Arithmetics,">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_5EcggJTNEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T17:42:52.004+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Braking curves,">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-069.05">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_8AFLMJTNEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T17:55:22.230+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-069.06">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Logical statements,">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_F94REJTOEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T17:44:16.805+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-069.07">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Messages and fields.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_QPFbIJTOEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T17:53:12.224+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-070">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="The language for the FFM shall be able to formalize as much as possible of:">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_yjVugJTOEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T17:53:47.517+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-070.01">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="State machines,">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_zgAyIJTOEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T17:52:05.480+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-070.02">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Time-outs,">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_1n4dkJTOEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T17:52:31.615+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-070.03">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Truth tables,">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_2paMAJTOEeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T16:13:36.852+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-070.04">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Arithmetics,">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_37pP8JTOEeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T15:05:00.164+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-070.05">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Braking curves,">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_5pLIwJTOEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T17:53:06.738+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-070.06">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Logical statements,">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_V4CyQJTPEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T17:53:12.427+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-070.07">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Messages and fields.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_6Zxp0JTPEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T17:58:33.841+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Comment. These requirements do not state that all these objects need to be first order objects of the language. They only state that it should be possible to formalize and manipulate them. It is to be noted that if (for example) braking curves are objects of the language, it shall be proved that they are sound, and that the code generation for these objects is also sound.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_NJcKwJTMEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_IOjlIJTMEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_hEfnIJTQEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T18:00:51.095+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-071">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="The mean of description of the SFM shall allow it to be simulable.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_rcYA8JTQEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T18:02:45.300+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Comment. This requirement is in the section “language and formalism” because in order for the model to be simulable, it has to be able to yield some algorithmic content and determinism (or a way of determining a non-deterministic model), which is indeed a property on the formal aspects of the model. In the other hand, it is also a requirement on the tool chain, hence there are also some requirements on this topic in Sect. 7.7.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_NJcKwJTMEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_IOjlIJTMEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_HuRwUJTREeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T18:05:58.695+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-072">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="It shall be possible to assert logical properties on the SFM and FFM (e.g. invariants).">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_QG19wJTREeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T18:07:41.356+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-072.01">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="It shall be possible to check the conformance of these properties at runtime on the SFM.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_RotZIJTREeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T18:07:03.470+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-072.02">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="It shall be possible to prove the conformance of the FFM to these properties.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_cqS3QJTREeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T18:08:17.268+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-073">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="The language and formalism should be extensible.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_rBrzkJTREeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T18:17:33.925+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Tools chain">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_sbd84JTEEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="7.7">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Zo1b8JTSEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_dxQyQJTEEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_4E2u8JTREeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T18:11:20.366+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Usage">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_sbd84JTEEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="7.7.1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Zo1b8JTSEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_dxQyQJTEEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_ZEZx0JTVEeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T15:00:45.635+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-074">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="The tools chain shall be composed as far as possible of Open Source components licensed under a license compatible with the EUPL license.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_cjiUcJWAEeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T15:00:45.930+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-074.01">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Closed source components may be used, but only if their use is not mandatory in the process, or if an open source counterpart is provided.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_j8b0oJWAEeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T15:01:50.046+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-074.02">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="If a closed source component is used, it has to be displayed how an open source component has to be designed to replace the closed component later.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_uF-3gJWAEeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T15:02:57.150+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-075">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="The tools chain shall be portable to common operating systems.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_0Q1QMJWAEeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T15:04:45.957+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-075.01">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="The tool chain shall run stable on all main operating systems.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_76S78JWAEeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T15:04:30.645+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="The tool chain shall run with a good performance on all main operating systems.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-075.02">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_C8UNMJWBEeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T16:13:42.936+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-075.03">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="The tool chain shall run on at least one major open source operating system.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_JSynEJWBEeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T15:06:00.646+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-076">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="The tools used in the tool chain shall be able to cooperate, i.e. the outputs of one tool will be suitable to be used as the inputs of another tool.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_SjZ20JWBEeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T15:06:59.495+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-076.01">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="All possible input and output formats of a tool have to be documented.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_TsvdcJWBEeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T15:07:10.581+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-076.02">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Open data formats shall be used for data exchange.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_6VADAJWJEeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T16:08:43.258+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-01-032">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="If tools are required for configuration management, they will be considered as part of the tool chain.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_EwbgEJWKEeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T16:11:46.966+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="R-WP2/D2.6-02-077">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_SYwlwJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="The tools chain shall allow to generate executable code from the model(s). ">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHopTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_HDpHoZTAEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_av1WoJWKEeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T16:12:20.055+01:00">
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_dxQyQJTEEeOuRtV71D_jpA</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+      </SPEC-OBJECTS>
+      <SPECIFICATIONS>
+        <SPECIFICATION IDENTIFIER="_HDpHppTAEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:04:17.945+01:00" LONG-NAME="Specification Document">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Requirements Document">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_HDpHpJTAEeOuRtV71D_jpA</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPECIFICATION-TYPE-REF>_HDpHo5TAEeOuRtV71D_jpA</SPECIFICATION-TYPE-REF>
+          </TYPE>
+          <CHILDREN>
+            <SPEC-HIERARCHY IDENTIFIER="_HDpHp5TAEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:04:17.945+01:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_HDpHpZTAEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN/>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_jb-ZsJTBEeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T09:11:33.893+01:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_jao88JTBEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_4y7JIJTBEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:17:25.024+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_4xmTcJTBEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_Nid6UJTCEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:19:15.785+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_NhH2gJTCEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_jEDsIJTFEeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T09:13:05.039+01:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_jCwEkJTFEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_cV5VkJTGEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:49:32.347+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_cUnjMJTGEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_i01H4JTGEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:50:13.991+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_izg5QJTGEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                  <CHILDREN>
+                    <SPEC-HIERARCHY IDENTIFIER="_p_YqEJTGEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:51:05.770+01:00">
+                      <OBJECT>
+                        <SPEC-OBJECT-REF>_p-DNUJTGEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+                      </OBJECT>
+                    </SPEC-HIERARCHY>
+                    <SPEC-HIERARCHY IDENTIFIER="_waS4AJTGEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:51:47.345+01:00">
+                      <OBJECT>
+                        <SPEC-OBJECT-REF>_wY_QcJTGEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+                      </OBJECT>
+                    </SPEC-HIERARCHY>
+                  </CHILDREN>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_4I0C4JTGEeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T14:54:45.461+01:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_4HhCYJTGEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN/>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="__y0hMJTGEeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T14:55:01.360+01:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>__xhgsJTGEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_MJ6ZsJTHEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:54:54.972+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_MInZMJTHEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_S_ULQJTHEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:55:39.742+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_S9_VkJTHEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_d_cQ0JTHEeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T14:55:10.806+01:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_d-J3YJTHEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_1pwKAJTHEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:59:33.565+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_1oZfIJTHEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_4ygqsJTHEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T16:59:54.683+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_4xQtgJTHEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                  <CHILDREN/>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_qcHlMJTNEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T17:41:11.286+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_qa0ksJTNEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_viCWIJTNEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T17:41:45.574+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_vgwjwJTNEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_5FuS4JTNEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T17:42:52.004+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_5EcggJTNEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_8BZZ0JTNEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T17:42:58.747+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_8AFLMJTNEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_F_SmUJTOEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T17:44:16.805+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_F94REJTOEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                  <CHILDREN/>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_QQV_YJTOEeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T14:55:20.852+01:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_QPFbIJTOEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_ykovAJTOEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T17:49:18.373+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_yjVugJTOEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_zhTLkJTOEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T17:49:24.474+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_zgAyIJTOEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_1pJB0JTOEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T17:49:38.757+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_1n4dkJTOEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_2qvBsJTOEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T17:49:44.930+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_2paMAJTOEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_3883gJTOEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T17:49:52.186+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_37pP8JTOEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_5qfXYJTOEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T17:50:05.973+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_5pLIwJTOEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_V5VLsJTPEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T17:53:12.427+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_V4CyQJTPEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_6bC1IJTPEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T17:57:18.372+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_6Zxp0JTPEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_hF0c0JTQEeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T14:55:28.037+01:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_hEfnIJTQEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_rdsPkJTQEeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T18:02:45.300+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_rcYA8JTQEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_HvlX4JTREeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T14:55:35.186+01:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_HuRwUJTREeOuRtV71D_jpA</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_QIKzcJTREeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T18:06:55.619+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_QG19wJTREeOuRtV71D_jpA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_RqEEAJTREeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T18:07:03.470+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_RotZIJTREeOuRtV71D_jpA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_crlQsJTREeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T14:55:45.295+01:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_cqS3QJTREeOuRtV71D_jpA</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN/>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_rC-0EJTREeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T18:11:08.786+01:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_rBrzkJTREeOuRtV71D_jpA</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_4GJvcJTREeOuRtV71D_jpA" LAST-CHANGE="2014-02-13T18:11:20.366+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_4E2u8JTREeOuRtV71D_jpA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                  <CHILDREN/>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_ZFungJTVEeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T14:57:28.122+01:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_ZEZx0JTVEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_ck18AJWAEeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T15:00:45.930+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_cjiUcJWAEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_j9xRYJWAEeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T15:01:50.046+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_j8b0oJWAEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_uHSfEJWAEeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T15:03:09.840+01:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_uF-3gJWAEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_0SKs8JWAEeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T15:03:40.322+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_0Q1QMJWAEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_77sqIJWAEeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T15:04:30.645+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_76S78JWAEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_C9pC4JWBEeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T15:05:18.668+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_C8UNMJWBEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_JUG1sJWBEeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T15:06:16.601+01:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_JSynEJWBEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_SkuFcJWBEeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T15:06:59.495+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_SjZ20JWBEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_TuGIUJWBEeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T15:07:10.581+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_TsvdcJWBEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_6VfLMJWJEeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T16:09:22.253+01:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_6VADAJWJEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN/>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_ExugkJWKEeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T16:11:43.113+01:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_EwbgEJWKEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_axOdwJWKEeOuRtV71D_jpA" LAST-CHANGE="2014-02-14T16:12:20.055+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_av1WoJWKEeOuRtV71D_jpA</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+          </CHILDREN>
+        </SPECIFICATION>
+      </SPECIFICATIONS>
+    </REQ-IF-CONTENT>
+  </CORE-CONTENT>
+  <TOOL-EXTENSIONS>
+    <REQ-IF-TOOL-EXTENSION>
+      <configuration:ProrToolExtension>
+        <configuration:specViewConfigurations>
+          <configuration:ProrSpecViewConfiguration specification="_HDpHppTAEeOuRtV71D_jpA">
+            <configuration:columns>
+              <configuration:Column label="ID" width="249"/>
+              <configuration:Column label="Description" width="866"/>
+            </configuration:columns>
+            <configuration:leftHeaderColumn>
+              <configuration:Column label="Lead Header Column" width="71"/>
+            </configuration:leftHeaderColumn>
+          </configuration:ProrSpecViewConfiguration>
+        </configuration:specViewConfigurations>
+        <configuration:generalConfiguration>
+          <configuration:ProrGeneralConfiguration>
+            <configuration:labelConfiguration>
+              <configuration:LabelConfiguration>
+                <defaultLabel>Description</defaultLabel>
+              </configuration:LabelConfiguration>
+            </configuration:labelConfiguration>
+          </configuration:ProrGeneralConfiguration>
+        </configuration:generalConfiguration>
+        <configuration:presentationConfigurations>
+          <configuration:ProrPresentationConfigurations>
+            <configuration:presentationConfigurations>
+              <headline:HeadlineConfiguration datatype="_skd9UJTDEeOuRtV71D_jpA" size="12"/>
+              <linewrap:LinewrapConfiguration datatype="_3-czsJTLEeOuRtV71D_jpA"/>
+            </configuration:presentationConfigurations>
+          </configuration:ProrPresentationConfigurations>
+        </configuration:presentationConfigurations>
+      </configuration:ProrToolExtension>
+    </REQ-IF-TOOL-EXTENSION>
+  </TOOL-EXTENSIONS>
+</REQ-IF>
